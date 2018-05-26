@@ -1,0 +1,33 @@
+Rule for Fraud clim customer
+
+
+1. changing the date (current valuable date check) cross check with hospital
+2. expired insurance clim (clim id)
+3. Age clim (DOB)
+4. applied reject claim again we can identify with reject code(reject code/reject reason)
+5. document mismatch
+Primary diagnosis code (the patient admitted for heart attack but clim for different disses )We have predefined code 
+
+Rule for Fraud clim Hospital 
+1. few hospitals already we know that fake one in certain cities 
+2. Without making a test/scan they are clim with insurance company
+3. Date of admission and discharge scale with total benifit
+4. Multiple clim for same patient 
+
+
+List cooperation  with parameters 
+
+1. Member ID proof mismatch( Member ID )/Insured Identification
+2. Insured DOB/member DOB
+	Insured Name/Member Name
+1. if check already reject is there (Claim Reject Code)
+2. mismatch Rendering Provider State/Billing Provider State
+Claim Process Status - if denied the customer maybe fraud
+Total Charge /Total Benefit Amount
+1. Multiple clim for same patient (Claim ID)
+
+
+
+
+
+
